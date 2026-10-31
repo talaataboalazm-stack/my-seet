@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "470403627879",
+    "project_id": "my-seet",
+    "storage_bucket": "my-seet.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470403627879:android:544b45107ed8cb176a4dc2",
+        "android_client_info": {
+          "package_name": "app.myseet.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470403627879-bp2j2rnkh545qg1cl326d9202mfq51q5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnRu5MLSYJBjZaz0qBL_CX2bKEUiF18mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470403627879-bp2j2rnkh545qg1cl326d9202mfq51q5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
