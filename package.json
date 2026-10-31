@@ -1,0 +1,26 @@
+{
+  "name": "my-seet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode client",
+    "dev:admin": "vite --mode admin",
+    "build": "vite build --mode client",
+    "build:admin": "vite build --mode admin",
+    "cap:sync": "npm run build && npx cap sync android",
+    "deploy:admin": "npm run build:admin && firebase deploy --only hosting,firestore:rules,functions"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/ios": "^6.1.2",
+    "@capacitor/push-notifications": "^6.0.2",
+    "firebase": "^10.14.1"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.2",
+    "vite": "^5.4.10"
+  }
+}

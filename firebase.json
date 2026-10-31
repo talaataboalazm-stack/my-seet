@@ -1,0 +1,9 @@
+{
+  "firestore": { "rules": "firestore.rules" },
+  "hosting": {
+    "public": "dist-admin",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "headers": [{ "source": "**", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] }]
+  },
+  "functions": [{ "source": "functions", "codebase": "default" }]
+}
